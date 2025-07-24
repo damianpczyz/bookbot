@@ -7,8 +7,7 @@ def get_book_text(filepath: str) -> str:
     return book_content    
 
 def show_help() -> None:
-    print('Usage:\n\n'
-          'python3 main.py <path_to_book>')
+    print('Usage: python3 main.py <path_to_book>')
 
 def main():
 
